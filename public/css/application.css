@@ -66,8 +66,7 @@ div.spinner {
   height: 250px;
   border-radius: 50%;
   background-image: linear-gradient(
-    to left top,
-    #19647E, #D72638, #F4D35E, #EE964B);
+    #D72638, #EE964B);
   margin: 0 auto;
 }
 
