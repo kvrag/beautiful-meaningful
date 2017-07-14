@@ -6,6 +6,7 @@ body {
     to right,
     #00AAB2, #00AAA2 80%);
   font-family: 'Open Sans', sans-serif;
+  text-align: center;
 }
 
 .container {
@@ -39,6 +40,14 @@ textarea {
   border-radius: 10px;
   border: none;
   padding: 10px;
+}
+
+a {
+  color: #19647e;
+  text-decoration: none;
+  font-size: .7em;
+  position: absolute;
+  bottom: 20px;
 }
 
 /*----------------MVP SHOW RESULTS-----------------*/
