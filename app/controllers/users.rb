@@ -1,5 +1,8 @@
+get '/users' do
+  redirect '/'
+end
+
 post '/users' do
-  @user = User.new(thoughts: params[:thoughts])
-  @feeling = Feeling.find_by(name: @user.top_feeling)
-  erb :'spins/_show', locals: {user: @user, feeling: @feeling}
+  @user = User.create(thoughts: params[:thoughts])
+  erb :'spins/_new', locals: {user: @user}
 end

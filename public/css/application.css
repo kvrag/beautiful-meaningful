@@ -55,8 +55,32 @@ textarea {
 
 /*---------------SPINNING WHEEL---------------*/
 
+div#spinner-wrapper {
+  width: 100%;
 
+}
 
+div.spinner {
+  border: 2px solid black;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-image: linear-gradient(
+    to left top,
+    #19647E, #D72638, #F4D35E, #EE964B);
+  margin: 0 auto;
+}
+
+input#spin-button {
+  margin: 30px;
+}
+
+#result {
+  display: none;
+  padding: 30px;
+  margin: 30px;
+  background-color: rgba(255, 255, 255, .25);
+}
 
 
 
