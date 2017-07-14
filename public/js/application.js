@@ -10,19 +10,24 @@ var spin = function() {
     });
   }
 
-  $({
+  $.when($({
     deg: 0
   }).animate({
-    deg: 360 * 40
+    deg: 360 * 30
   }, {
     duration: 7000,
     step: function() {
       var deg = this.deg;
       rotate(deg);
     }
+  })).then(function(){
+    $('#result').css('display', 'inline-block');
   });
+
 }
 
 $(document).ready(function() {
   $("#spin-button").on('submit', spin());
+
+
   });
