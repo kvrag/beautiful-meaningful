@@ -22,6 +22,7 @@ stress_activities.each do |activity|
     description: activity,
     feeling_id: stress.id
     })
+end
 
 anger_activities = [
   "Jog around the block.",
@@ -34,6 +35,7 @@ anger_activities.each do |activity|
     description: activity,
     feeling_id: anger.id
     })
+end
 
 anxious_activities = [
   "Inhale as deeply as you can, and exhale slowly.",
@@ -48,6 +50,7 @@ anxious_activities.each do |activity|
     description: activity,
     feeling_id: anxious.id
     })
+end
 
 disgust_activities = [
 
@@ -58,6 +61,7 @@ disgust_activities.each do |activity|
     description: activity,
     feeling_id: disgust.id
     })
+end
 
 tired_activities = [
   "Did you get much sleep? Try closing your eyes for 20 minutes.",
@@ -69,6 +73,7 @@ tired_activities.each do |activity|
     description: activity,
     feeling_id: tired.id
     })
+end
 
 fear_activities = [
   "Call a friend or trusted family member.",
@@ -81,6 +86,7 @@ fear_activities.each do |activity|
     description: activity,
     feeling_id: fear.id
     })
+end
 
 sadness_activities = [
   "Cry, if you want to.",
@@ -96,6 +102,7 @@ sadness_activities.each do |activity|
     description: activity,
     feeling_id: sadness.id
     })
+end
 
 joy_activities = [
   "Take a moment to feel gratitude for all that you have!",
@@ -108,6 +115,7 @@ joy_activities.each do |activity|
     description: activity,
     feeling_id: joy.id
     })
+end
 
 
 

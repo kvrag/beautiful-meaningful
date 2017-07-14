@@ -1,3 +1,3 @@
 class Feeling < ActiveRecord::Base
-  # Remember to create a migration!
+  has_many :activities
 end
